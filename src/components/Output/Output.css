@@ -1,0 +1,25 @@
+.btn_more {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: fantasy;
+    border: white;
+    background: #B5838D;
+    color: #F3BBCE;
+}
+
+.btn_more_wp {
+    display: flex;
+    justify-content: center;
+}
+
+.pers_name {
+    background-color: #E5989B;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #F3BBCE;
+}

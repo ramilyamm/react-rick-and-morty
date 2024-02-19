@@ -1,0 +1,55 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container {
+    width: 50%;
+    height: 60%;
+    background: #FFB4A2;
+    border-radius: 15px;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #B5838D;
+    padding: 0 5px;
+}
+
+.pers_image {
+    border-radius: 15px;
+    margin: 0 35%;
+}
+
+.pers_name_modal {
+    margin: 10px 30px;
+    text-align: center;
+    display: table;
+    padding: 10px;
+    background-color: #B5838D;
+    color: #FFCDB2;
+
+}
+
+.pers_info {
+    margin: 5px 30px;
+    padding: 0 15px;
+    display: table;
+    color: #B5838D;
+    background-color: #FFCDB2;
+}
